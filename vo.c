@@ -1,15 +1,20 @@
-include<stdio.h>
-include<conio.h>
-void main()
+import java.util.*;
+class even
 {
-int n;
-printf("enter the alphaphet");
-scanf("%d",n);
-if(n=='a'!!n=='e'!!n=='i'!!n=='o'!!n=='u')
+public static void main(String[] arg)
 {
-printf("vowel");
+char ch;
+Scanner s=new Scanner(System.in);
+System.out.println("enter the element");
+ch=s.next(".").charAt(0);
+if(ch=='a'||ch=='e'||ch=='i'|ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'|ch=='O'||ch=='U')
+{
+System.out.println("vowel");
 }
-else {
-printf("consonant");
+else
+{
+System.out.println("consonant");
 }
 }
+}
+

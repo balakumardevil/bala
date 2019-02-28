@@ -1,0 +1,14 @@
+c1=int(input())
+c2=int(input())
+s1=int(input())
+s2=int(input())
+if(c1>c2):
+    c=c1-c2
+else:
+    c=c2-c1
+print(c)
+if(s1>s2):
+    s=s1-s2
+else:
+    s=s2-s1
+print(s)

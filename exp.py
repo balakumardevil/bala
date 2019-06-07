@@ -1,5 +1,3 @@
-a=int(input("number")
-n=int(input("exponent")
-int c
-c=a**n
+a,b=map(int,input().split())
+c=a**b
 print(c)
